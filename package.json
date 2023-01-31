@@ -1,0 +1,20 @@
+{
+  "name": "cursonode",
+  "version": "1.0.0",
+  "description": "Curso de Node JS com o instrutor Matheus Batiste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulocapistrano/CursoNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulocapistrano/CursoNode/issues"
+  },
+  "homepage": "https://github.com/saulocapistrano/CursoNode#readme"
+}
