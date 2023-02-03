@@ -1,0 +1,8 @@
+<h1>Olá Handlebars</h1>
+<p>O usuário é: {{user.name}} seu sobrenome é {{user.surname}} sua idade é {{user.age}} </p>
+<p>Usando dados do backend no front</p>
+{{#if auth}}
+<p>
+    AUtenticação verificada, <a href="/dashboard">clique aqui</a> para acessar a área de membros!
+</p>
+{{/if}} 
