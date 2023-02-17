@@ -1,0 +1,54 @@
+*{
+    font-family: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 58, 61);
+    color: #fff;
+}
+
+#nuv img{
+    height: 55px;
+}
+
+#navbar {
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(55, 58, 61);
+    border-bottom: 1px solid #f6982d;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;rgb(55, 58, 61);
+}
+ #navbar ul li {
+    margin-left: 1em;
+ }
+
+ #navbar ul li a{
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+    color: #f6982d;
+}
+/*Container*/
+.container {
+    min-height: 60vh;
+    padding: 2em;
+}
+/*Footer*/
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #f6982d;
+}
+footer span{
+    font-weight: bold;
+    color: #f6982d;
+}
